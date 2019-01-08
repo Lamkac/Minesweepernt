@@ -163,13 +163,11 @@ namespace Minesnt {
                 numberString = "0" + numberString;
             }
 
-            bool minus = (number < 0)?true:false;
-
             for (int i = 0; i < 3; i++) {
 
                 Image numberImage = null;
 
-                if (i == 0 && minus) {
+                if (i == 0 && (number < 0)) {
                     numberImage = numberImages[10];
                 } else {
                     if (int.TryParse(numberString[i].ToString(), out int tempNumber)) {
