@@ -1,0 +1,36 @@
+[
+	{
+	horizontalLock: 2,
+	verticalLock: 2,
+	mines: [
+		[1,0,0],
+		[1,2,2]
+	]
+	},
+	{
+	horizontalLock: 0,
+	verticalLock: 0,
+	mines: [
+		[2,2,1],
+		[0,0,1]
+	]
+	},
+	{
+	horizontalLock: 2,
+	verticalLock: 0,
+	mines: [
+		[0,2],
+		[0,2],
+		[1,1]
+	]
+	},
+	{
+	horizontalLock: 0,
+	verticalLock: 2,
+	mines: [
+		[1,1],
+		[2,0],
+		[2,0]
+	]
+	}
+]
